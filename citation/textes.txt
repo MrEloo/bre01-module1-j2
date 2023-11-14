@@ -1,7 +1,7 @@
 Module 1 - Quelques citations
 Découverte des citations en HTML.
 
-Présentation
+c
 Le langage HTML permet de gérer les citations de 2 manières différentes
 Citer une phrase ou un terme (en ligne) au sein d'un paragraphe: utilisation de l'élément inline <q> ; dans ce cas, le texte est en italique (par défaut).
 Pour une citation plus longue ou pour un extrait complet d'un document : utilisation de l'élément <blockquote> ; dans ce cas, le texte est indenté (par défaut).

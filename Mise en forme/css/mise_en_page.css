@@ -1,0 +1,123 @@
+.font{
+    font-weight: 700;
+}
+
+article{
+    line-height: 2;
+}
+
+.medium{
+    font-size: medium;
+}
+.large{
+    font-size: large;    
+}
+.pixel{
+    font-size: 14px;    
+}
+.pt{
+    font-size: 14pt;    
+}
+.pourcentage{
+    font-size: 150%;    
+}
+.em{
+    font-size: 1.5em;    
+}
+.rem{
+    font-size: 1.5rem;    
+}
+
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
+}
+.valeur{
+    font-weight: 700;
+}
+.bolder{
+    font-weight: bolder;
+}
+.lighter{
+    font-weight: lighter;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.line1{
+    line-height: 1;
+}
+.line2{
+        line-height: 1.5;
+}
+.line4{
+        line-height: 4;
+}
+
+.letter-spacing{
+    letter-spacing: 0.5em;
+}
+
+.word-space{
+    word-spacing: 2em;
+}
+
+.white-space-normal{
+    background-color: #ccc;
+    width: 200px;
+    white-space: normal ;
+}
+.white-space-nowrap{
+    background-color: #ccc;
+    width: 200px;
+    white-space: nowrap;
+}
+.white-space-pre{
+    background-color: #ccc;
+    width: 200px;
+    white-space: pre;
+}
+
+.align{
+    text-align: center;
+}
+
+.indent{
+    text-indent: 15%;
+}
+
+.none{
+    text-transform: none;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.valeur{
+    text-decoration: ;
+}
+.overline{
+    text-decoration:overline ;
+}
+.red{
+    text-decoration: underline red;
+}
+.double{
+    text-decoration: underline double orangered;
+}
+.tiret{
+    text-decoration: underline green;
+}
+.wavy{
+    text-decoration: underline wavy teal;
+}
