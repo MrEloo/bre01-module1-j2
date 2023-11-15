@@ -1,0 +1,135 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    max-width: 750px;
+    margin: 0 auto;
+    color: #2C4726;
+    font-size: 0.875rem;
+    background-image: url('../img/fond.png');
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-family: verdana, sans-serif;
+    
+}
+
+button{
+    position: relative;
+    background-color: #b8cb21;
+    border: none;
+    padding: 0.9em;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    transform: scale(1);
+    transition: 0.6s ease;
+
+}
+
+button:hover{
+        transform: scale(1.05);
+        transition: 0.3s ease;
+}
+
+header{
+    font-size: 1.25rem;
+}
+
+h1{
+    font-size: 1.875rem; 
+    text-align: center;
+}
+
+h2{
+    font-size: 1.3125rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b8cb21;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    transform: scale(1);
+    transition: 0.3s ease;
+    margin-right: 2rem;
+    text-decoration: underline;
+}
+
+
+.float-left{
+    float: left;
+    margin-right: 1rem;
+}
+
+.float-right{
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.75rem;
+    text-align: center;
+
+
+}
+
+footer img{
+    width: 5%;
+}
+
+footer p {
+    width: 100rem;
+}
+
+.bleu{
+    color: blue;
+}
+
+main{
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.leaf{
+    position: relative;
+    top: 0.4rem;
+    width: 3%;
+    fill: red!important;
+    
+}
+
+header a{
+    color: inherit; /* Utilisez la couleur héritée du texte parent */
+    text-decoration: none;
+}
+
+header a:visited{
+    color: inherit;
+} 
+
+header ul li:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    will-change: transform;
+    backface-visibility: hidden;
+}

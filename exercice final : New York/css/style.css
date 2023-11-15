@@ -1,0 +1,164 @@
+/*GENERALITEES*/
+
+
+:root {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url('../ressources/police/courgette/courgette-regular-webfont.woff2') format('woff2'),
+         url('../ressources/police/courgette/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 980px;
+    color: #444;
+    line-height: 1.5;
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Courgette', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.1875rem;
+    color: #4f89b9;
+    font-family: 'Courgette', sans-serif;
+}
+
+header a{
+    color: #003884;
+}
+
+h3{
+    color: #003884 ;
+    font-size: 1.5625rem;
+    font-family: 'Courgette', sans-serif;
+}
+
+h4{
+    font-family: 'Courgette', sans-serif;
+    color: #003884 ;
+    font-size: 1rem;
+}
+
+main h3{
+    text-align: center;
+    font-family: 'Courgette', sans-serif;
+
+}
+
+.citation{
+    background-color: #d7e1ef;
+    font-size: 1.5625rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.border{
+    border-bottom: 2px solid #003884 ;
+    padding-bottom: 2em;
+}
+
+.copyright{
+    font-size: 0.875rem;
+    text-decoration: underline;
+}
+
+q {
+    font-style: italic;
+}
+.line-heigt{
+    line-height: 0.5;
+}
+
+.weight{
+    font-weight: 600;
+    color: #003884 ;;
+}
+
+.weight-light{
+    font-weight: 600;
+    color: #4f89b9;
+    font-style: italic;
+}
+
+.fa-square-facebook{
+    color: #003884;
+}
+.fa-square-pinterest{
+    color: #003884;
+}
+.fa-square-instagram{
+    line-height: 0.2;
+    color: #003884;
+}
+
+.height{
+    height: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.float-left{
+    float: left;
+    margin-right: 1rem;
+}
+.float-right{
+    float: right;
+    margin-left: 1rem
+}
+
+.clear{
+    clear: both;
+}
